@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function PresentationCard() {
 
     return (
-        <div className="flex flex-col gap-6 p-12 rounded-xl bg-linear-65 from-green-0 to-yellow-200 w-4/5 sm:max-w-96 mx-auto text-black sm:text-2xl" >
+        <div className="flex flex-col gap-6 p-12 rounded-xl bg-linear-65 from-orange-400/90 to-yellow-200/90 w-4/5 sm:max-w-96 mx-auto text-black sm:text-2xl" >
             <h1 className="text-4xl font-bold">Latin Food</h1>
             <p className="text-xl">Nuvia Lopez</p>
             <Image 
@@ -27,11 +27,11 @@ export default function PresentationCard() {
                 555-555-5555
             </Link>
             <Link href="/events">
-                <Button>My Next Events</Button>
+                <Button>Proximos eventos</Button>
             </Link>
             <p>Me necesitas para tu proximo evento ?</p>
             <Link href="/events">
-                <Button>Contratar Servicio</Button>
+                <Button>Ver Servicios</Button>
             </Link>
       </div>
     )
